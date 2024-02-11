@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "test": "jest --watch",
+    "test:coverage": "jest --watch --coverage",
     "test:ci": "jest --ci",
     "test:e2e": "cypress run",
     "test:e2e:open": "cypress open"
@@ -15,7 +16,8 @@
   "dependencies": {
     "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-icons": "^5.0.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "6.1.5",

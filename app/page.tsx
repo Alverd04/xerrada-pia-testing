@@ -15,10 +15,10 @@ const LandingPage = () => {
             Keep track of tasks, set reminders, and stay productive with our
             intuitive Todo list app.
           </p>
-          <div className="flex justify-center">
+          <div className="flex justify-center gap-x-4">
             <Link
               className="bg-gradient-to-r from-green-400 to-blue-500 hover:bg-gradient-to-r hover:from-green-500 hover:to-blue-600 text-white font-semibold py-3 px-6 rounded-lg"
-              href="/app"
+              href="/tasks"
             >
               Get Started
             </Link>
@@ -104,7 +104,7 @@ const LandingPage = () => {
           </p>
           <Link
             className="bg-gradient-to-r from-green-400 to-blue-500 hover:bg-gradient-to-r hover:from-green-500 hover:to-blue-600 text-white font-semibold py-3 px-6 rounded-lg"
-            href="/app"
+            href="/tasks"
           >
             Get Started
           </Link>
