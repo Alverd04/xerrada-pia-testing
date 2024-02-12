@@ -30,6 +30,8 @@ jobs:
         run: npm install
       - name: Test
         run: npm run test:ci
+      - name: Setup LCOV
+        uses: hrishikesh-kadam/setup-lcov@v1
       - name: Report code coverage
         uses: zgosalvez/github-actions-report-lcov@v3
         with:
