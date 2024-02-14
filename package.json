@@ -9,7 +9,7 @@
     "lint": "next lint",
     "test": "jest --watch",
     "test:coverage": "jest --watch --coverage",
-    "test:ci": "jest --ci",
+    "test:ci": "jest --ci --coverage",
     "test:e2e": "cypress run",
     "test:e2e:open": "cypress open"
   },
